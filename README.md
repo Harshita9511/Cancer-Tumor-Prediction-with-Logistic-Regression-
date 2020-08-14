@@ -7,11 +7,11 @@
 Logistic Regression solves the classification problem, where the target variable is categorical in nature. It models the data using sigmoid function that takes in any value and outputs it to be between 0 and 1.<br />
 Sigmoid function, f(z)= 1/(1+e^(-z))
 
-<img src="/image_lr.png" align="center" width="400" height="400" />
+<img src="/image_lr.png" align="center" width="400" height="250" />
 
 ## Model Evaluation
-Confusion matrix is used to evaluate classification models performance on a set of test data for which the true values are already known.
-<img src="/image.png" align="center" width="400" height="400" />
+Confusion matrix is used to evaluate classification models performance on a set of test data for which the true values are already known.<br />
+<img src="/image.png" align="center" width="400" height="250" />
 
 *True Positive (TP)*: Actual observation is positive and is predicted to be positive.<br />
 *True Negative (TN)*: Actual observation is negative and is predicted to be negative.<br />
