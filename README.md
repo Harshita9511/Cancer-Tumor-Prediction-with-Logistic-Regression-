@@ -7,11 +7,11 @@
 Logistic Regression solves the classification problem, where the target variable is categorical in nature. It models the data using sigmoid function that takes in any value and outputs it to be between 0 and 1.<br />
 Sigmoid function, f(z)= 1/(1+e^(-z))
 
-<img src="/image_lr.png" align="center" width="400" height="250" />
+<div align="center"><img src="/image_lr.png" width="400" height="250" /></div>
 
 ## Model Evaluation
 Confusion matrix is used to evaluate classification models performance on a set of test data for which the true values are already known.<br />
-<img src="/image.png" align="center" width="400" height="250" />
+<div align="center"><img src="/image.png" align="center" width="400" height="250" /></div>
 
 *True Positive (TP)*: Actual observation is positive and is predicted to be positive.<br />
 *True Negative (TN)*: Actual observation is negative and is predicted to be negative.<br />
@@ -21,12 +21,16 @@ Confusion matrix is used to evaluate classification models performance on a set 
 ### Evaluation Parameters
 **Accuracy**: Ratio of correctly predicted classes to all the classes.<br />
 <div align="center">Accuracy = (TP+TN) / (TP+TN+FP+FN)</div><br /><br />
+
 **Misclassification Rate (Error rate)**: Ratio of wrong predictions to the total number of classes.<br />
 <div align="center">Error rate = (FP+FN) / (TP+TN+FP+FN)</div><br /><br />
+
 **Recall**: Ratio of correctly predicted positive classes to all the actual positive classes.<br />
 <div align="center">Recall = TP / (TP+FN)</div><br /><br />
+
 **Precision**: Ratio of correctly predicted positive classes to all positive predicted classes.<br />
 <div align="center">Precision = TP / (TP+FP)</div><br /><br />
+
 **F-measure**: It is the harmonic mean of Recall and Precision.<br />
 <div align="center">F-measure = (2 * Recall * Precision) / (Recall + Precision)</div><br />
 
