@@ -20,15 +20,15 @@ Confusion matrix is used to evaluate classification models performance on a set 
 
 ### Evaluation Parameters
 **Accuracy**: Ratio of correctly predicted classes to all the classes.<br />
-<div align="center">*Accuracy* = (TP+TN) / (TP+TN+FP+FN)</div><br /><br />
+<div align="center">Accuracy = (TP+TN) / (TP+TN+FP+FN)</div><br /><br />
 **Misclassification Rate (Error rate)**: Ratio of wrong predictions to the total number of classes.<br />
-<div align="center">*Error rate* = (FP+FN) / (TP+TN+FP+FN)</div><br /><br />
+<div align="center">Error rate = (FP+FN) / (TP+TN+FP+FN)</div><br /><br />
 **Recall**: Ratio of correctly predicted positive classes to all the actual positive classes.<br />
-<div align="center">*Recall* = TP / (TP+FN)</div><br /><br />
+<div align="center">Recall = TP / (TP+FN)</div><br /><br />
 **Precision**: Ratio of correctly predicted positive classes to all positive predicted classes.<br />
-<div align="center">*Precision* = TP / (TP+FP)</div><br /><br />
+<div align="center">Precision = TP / (TP+FP)</div><br /><br />
 **F-measure**: It is the harmonic mean of Recall and Precision.<br />
-<div align="center">*F-measure* = (2 * Recall * Precision) / (Recall + Precision)</div><br />
+<div align="center">F-measure = (2 * Recall * Precision) / (Recall + Precision)</div><br />
 
 ## Dataset
 The dataset has been taken from UCI machine learning repository. The main objective of the analysis is to perform classification of tumors i.e., benign(B) or malignant(M). A benign tumor is a tumor that does not invade its surrounding tissue or spread around the body. A malignant tumor is a tumor that may invade its surrounding tissue or spread around the body. This dataset consists of 569 rows and 33 columns.<br />
