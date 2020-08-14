@@ -1,4 +1,4 @@
-# Cancer-Tumor-Prediction-with-Logistic-Regression
+# Cancer Tumor Prediction with Logistic Regression
 
 <img src="/cancer_image.jpg" width="1000" height="300" />
 <div align="justify">
